@@ -160,14 +160,3 @@ export const rules = [
   'Skills stehen früh im Training, solange du frisch bist. Balance- und Transition-Drills nicht unter starker Ermüdung erzwingen.',
   'Stechender oder zunehmender Gelenkschmerz ist ein Stoppsignal: regressieren, Belastung reduzieren oder fachlich abklären.'
 ];
-
-export const milestones = [
-  {id:'m-pullup',label:'8 saubere Pull-ups',exercise:'pullup'},
-  {id:'m-dip',label:'10 saubere Dips',exercise:'dip'},
-  {id:'m-handstand',label:'30 s freier Handstand',exercise:'handstand'},
-  {id:'m-lsit',label:'20 s L-Sit',exercise:'l-sit'},
-  {id:'m-pistol',label:'5 saubere Pistols je Seite',exercise:'pistol'},
-  {id:'m-muscleup',label:'1 sauberer Muscle-up',exercise:'muscleup'},
-  {id:'m-front',label:'20 s Tuck Front Lever',exercise:'tuck-front'},
-  {id:'m-planche',label:'30 s kontrollierter Planche Lean',exercise:'planche-lean'}
-];

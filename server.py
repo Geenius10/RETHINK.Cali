@@ -1,5 +1,8 @@
 from http.server import ThreadingHTTPServer, SimpleHTTPRequestHandler
 from pathlib import Path
-import os
+import os, webbrowser
 os.chdir(Path(__file__).parent)
-ThreadingHTTPServer(('127.0.0.1',8080),SimpleHTTPRequestHandler).serve_forever()
+port = int(os.environ.get('PORT','8765'))
+url=f'http://127.0.0.1:{port}'
+print(f'ReThink Calisthenics läuft auf {url}')
+ThreadingHTTPServer(('127.0.0.1',port),SimpleHTTPRequestHandler).serve_forever()
