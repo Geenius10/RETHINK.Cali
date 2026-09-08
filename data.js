@@ -67,6 +67,18 @@ export const exercises = [
   {id:'planche-lean',name:'Planche Lean',cat:'Skills',level:4,equipment:'Keine/Parallettes',muscles:'Schulter, Brust, Core, Handgelenk',steps:['Im hohen Stütz starten.','Schultern vor die Hände verlagern.','Ellbogen strecken und Körperlinie halten.'],cue:'Protraktion aktiv halten.',reg:'Kleine Vorverlagerung.',prog:'Tuck Planche'},
   {id:'tuck-planche',name:'Tuck Planche',cat:'Skills',level:5,equipment:'Parallettes',muscles:'Schulter, Brust, Core',steps:['Hände fest aufsetzen.','Knie anziehen und Schultern vor Hände bringen.','Füße lösen und mit gestreckten Ellbogen halten.'],cue:'Nur mit belastbaren Handgelenken/Schultern.',reg:'Planche Lean / Frog Stand.',prog:'Advanced Tuck Planche'},
 
+
+  {id:'adv-tuck-front',name:'Advanced Tuck Front Lever',cat:'Skill',level:5,equipment:'Stange',muscles:'Lat, Core, Schulter',steps:['Aus aktivem Hang in die Tuck-Lever-Position.','Hüfte öffnen, Knie weiter vom Oberkörper wegführen.','Schulterblätter tief halten und Körperposition ohne Schwung halten.'],cue:'Nur so weit öffnen, wie die Hüfte oben bleibt.',reg:'Tuck Front Lever.',prog:'Straddle Front Lever'},
+  {id:'straddle-front',name:'Straddle Front Lever',cat:'Skill',level:6,equipment:'Stange',muscles:'Lat, Core, Schulter',steps:['Aus Advanced Tuck Beine kontrolliert öffnen.','Knie strecken und Hüfte auf Schulterhöhe halten.','Kurze perfekte Holds statt absinkender langer Holds.'],cue:'Stange nach unten drücken, Gesäß fest.',reg:'Advanced Tuck Front Lever.',prog:'Full Front Lever'},
+  {id:'full-front',name:'Full Front Lever',cat:'Skill',level:7,equipment:'Stange',muscles:'Lat, Core, Schulter',steps:['Körper unter der Stange vollständig strecken.','Schulterblätter aktiv depressieren und Arme gestreckt halten.','Nur horizontale, kontrollierte Holds zählen.'],cue:'Rippen unten, Hüfte nicht absinken lassen.',reg:'Straddle Front Lever.',prog:'Front Lever Pull'},
+  {id:'adv-tuck-back',name:'Advanced Tuck Back Lever',cat:'Skill',level:5,equipment:'Stange/Ringe',muscles:'Schulter, Brust, Core',steps:['Aus sicherem Skin-the-Cat in Tuck Back Lever.','Hüfte öffnen und Knie weiter wegführen.','Arme gestreckt, Position nur schmerzfrei halten.'],cue:'Schulterextension niemals erzwingen.',reg:'Tuck Back Lever.',prog:'Straddle Back Lever'},
+  {id:'straddle-back',name:'Straddle Back Lever',cat:'Skill',level:6,equipment:'Stange/Ringe',muscles:'Schulter, Brust, Core',steps:['Aus Advanced Tuck Beine öffnen und strecken.','Körper horizontal stabilisieren.','Kontrolliert zurück in eine sichere Position.'],cue:'Kurze saubere Holds, keine Schulterprovokation.',reg:'Advanced Tuck Back Lever.',prog:'Full Back Lever'},
+  {id:'full-back',name:'Full Back Lever',cat:'Skill',level:7,equipment:'Stange/Ringe',muscles:'Schulter, Brust, Core',steps:['Körper vollständig gestreckt hinter der Stange halten.','Ellbogen gestreckt und Schulterposition aktiv kontrollieren.','Sauber aus der Position zurückkehren.'],cue:'Nur bei schmerzfreier Schulterextension.',reg:'Straddle Back Lever.',prog:'Back Lever Pullout'},
+  {id:'adv-tuck-planche',name:'Advanced Tuck Planche',cat:'Skill',level:6,equipment:'Parallettes/Boden',muscles:'Schulter, Brust, Core',steps:['Aus Tuck Planche Knie vom Oberkörper lösen.','Schultern deutlich vor die Hände bringen.','Arme strecken und Becken auf Schulterhöhe halten.'],cue:'Protraktion halten, Ellbogen sperren.',reg:'Tuck Planche.',prog:'Straddle Planche'},
+  {id:'straddle-planche',name:'Straddle Planche',cat:'Skill',level:7,equipment:'Parallettes/Boden',muscles:'Schulter, Brust, Core',steps:['Aus Advanced Tuck Beine öffnen und strecken.','Körper möglichst horizontal halten.','Nur technisch stabile Sekunden zählen.'],cue:'Breitere Beine verkürzen den Hebel.',reg:'Advanced Tuck Planche.',prog:'Full Planche'},
+  {id:'full-planche',name:'Full Planche',cat:'Skill',level:8,equipment:'Parallettes/Boden',muscles:'Schulter, Brust, Core',steps:['Arme gestreckt, Schultern vor den Händen.','Beine geschlossen und Körper horizontal strecken.','Position ohne Hüftknick halten.'],cue:'Endziel – nicht erzwingen; Qualität entscheidet.',reg:'Straddle Planche.',prog:'Planche Push-up'},
+  {id:'compression',name:'Seated Compression Lift',cat:'Core',level:4,equipment:'Keine',muscles:'Hüftbeuger, Bauch',steps:['Im Langsitz Hände neben den Beinen aufsetzen.','Beine gestreckt aktiv vom Boden anheben.','Kurz halten und kontrolliert absetzen.'],cue:'Knie gestreckt, Oberkörper lang.',reg:'Ein Bein anheben.',prog:'V-Sit Compression'},
+  {id:'v-sit',name:'V-Sit',cat:'Skill',level:7,equipment:'Parallettes/Boden',muscles:'Core, Hüftbeuger, Trizeps',steps:['Im stabilen Stütz starten.','Gestreckte Beine über die L-Sit-Höhe anheben.','Hüfte aktiv nach vorn schieben und Position kontrollieren.'],cue:'Erst starker L-Sit und Compression, dann Höhe.',reg:'L-Sit + Compression.',prog:'High V-Sit'},
   {id:'wrist-rocks',name:'Wrist Rocks',cat:'Mobility',level:1,equipment:'Keine',muscles:'Handgelenke, Unterarme',steps:['Im Vierfüßler Hände flach aufsetzen.','Sanft vor/zurück verlagern.','Schmerzfreie Reichweite nutzen.'],cue:'Keine federnden Endpositionen.',reg:'Weniger Körpergewicht.',prog:'Größere Reichweite'},
   {id:'shoulder-cars',name:'Shoulder CARs',cat:'Mobility',level:1,equipment:'Keine',muscles:'Schulterbeweglichkeit',steps:['Aufrecht stehen, Rumpf ruhig.','Arm langsam in großem Kreis bewegen.','Nur schmerzfreie Bewegungsbahn.'],cue:'Langsam und kontrolliert.',reg:'Kleinere Kreise.',prog:'Größere kontrollierte Kreise'},
   {id:'cat-cow',name:'Cat-Cow',cat:'Mobility',level:1,equipment:'Keine',muscles:'Wirbelsäule',steps:['Vierfüßlerstand.','Wirbelsäule segmentweise runden.','Dann kontrolliert in Gegenrichtung bewegen.'],cue:'Mit Atmung koppeln.',reg:'Kleinere Bewegungsamplitude.',prog:'Segmentierter bewegen'},
@@ -77,7 +89,7 @@ export const exercises = [
   {id:'thoracic-rotation',name:'Thoracic Rotation',cat:'Mobility',level:1,equipment:'Keine',muscles:'Brustwirbelsäule',steps:['Vierfüßler oder Seitlage.','Oberen Arm kontrolliert aufdrehen.','Becken möglichst stabil halten.'],cue:'Rotation aus Brustwirbelsäule, nicht aus LWS erzwingen.',reg:'Kleinere Rotation.',prog:'Endposition kurz halten'}
 ];
 
-export const weeks = [
+const baseWeeks = [
   {week:1,title:'Basis neu kalibrieren',focus:'Saubere Wiederholungen, 2–3 RIR, Technik vor Tempo.',days:[
     {day:'Mo',name:'Push + Handstand',items:[['pushup','4×8–12'],['pike-pushup','4×6–10'],['support-hold','4×20–30 s'],['wall-handstand','6×20–30 s'],['hollow','3×25–35 s']]},
     {day:'Di',name:'Pull + Core',items:[['body-row','4×8–12'],['pullup-negative','5×3–5'],['scap-pullup','3×8–10'],['knee-raise','4×8–12'],['dead-hang','2×40–60 s']]},
@@ -151,6 +163,38 @@ export const weeks = [
     {day:'Sa',name:'Graduation Flow',items:[['pullup','3×submax'],['dip','3×submax'],['pistol','3×5/Seite'],['handstand','6×20–40 s'],['l-sit','6×10–20 s'],['deep-squat-hold','2×60 s']]}
   ]}
 ];
+
+
+const optionalByWeek = [
+  [['wall-handstand','6×20–30 s'],['l-sit-tuck','5×15–20 s'],['wrist-rocks','2×45 s'],['deep-squat-hold','2×60 s']],
+  [['chest-wall','6×25–35 s'],['tuck-front','5×10–15 s'],['compression','4×8–12'],['shoulder-cars','2×5/Seite']],
+  [['handstand','8×Bestversuch'],['tuck-planche','5×5–10 s'],['skin-cat-tuck','4×3'],['compression','4×10']],
+  [['handstand','8×Bestversuch'],['tuck-front','5×12–18 s'],['tuck-back','5×8–12 s'],['l-sit','6×8–15 s']],
+  [['handstand','10×Bestversuch'],['adv-tuck-front','5×6–12 s'],['tuck-planche','6×6–12 s'],['compression','4×12']],
+  [['handstand','10×Bestversuch'],['adv-tuck-front','6×8–15 s'],['adv-tuck-back','5×6–12 s'],['l-sit','6×10–18 s']],
+  [['wall-handstand','5×30 s'],['tuck-front','4×10 s'],['tuck-back','4×8 s'],['deep-squat-hold','2×60 s']],
+  [['handstand','10×Bestversuch'],['adv-tuck-planche','5×5–10 s'],['adv-tuck-front','5×10–15 s'],['compression','5×10']],
+  [['handstand','10×Bestversuch'],['straddle-front','6×3–8 s'],['adv-tuck-back','5×8–12 s'],['l-sit','6×15–20 s']],
+  [['handstand','10×Bestversuch'],['adv-tuck-planche','6×6–12 s'],['straddle-back','5×3–8 s'],['compression','5×12']],
+  [['handstand','8×20–40 s'],['straddle-front','6×4–10 s'],['straddle-planche','5×3–8 s'],['l-sit','6×15–25 s']],
+  [['handstand','8×Bestversuch'],['full-front','6×technische Versuche'],['full-back','5×technische Versuche'],['v-sit','6×technische Versuche']],
+  [['handstand','8×Bestversuch'],['full-planche','6×technische Versuche'],['full-front','6×technische Versuche'],['v-sit','6×technische Versuche']]
+];
+
+export const intro = {title:'Einstieg · 16.–20. September',focus:'Drei echte Einheiten kalibrieren deine Ausgangsstufe, ohne eine separate Testwoche zu verschwenden.',days:[
+  {day:'Mi 16.09.',name:'Pull + Core',items:[['pullup','5×submax sauber'],['body-row','3×10–12'],['tuck-front','5×8–15 s'],['leg-raise','3×8–12'],['dead-hang','2×45 s']]},
+  {day:'Fr 18.09.',name:'Push + Handstand',items:[['dip','5×submax sauber'],['pike-pushup','4×6–10'],['chest-wall','6×20–40 s'],['planche-lean','5×15–25 s'],['hollow','3×30–40 s']]},
+  {day:'So 20.09.',name:'Legs + Compression',items:[['pistol-box','5×5/Seite'],['bulgarian','3×8/Seite'],['l-sit-tuck','6×15–25 s'],['compression','4×8–12'],['deep-squat-hold','2×60 s']]}
+]};
+
+const starts=['21.09.–27.09.','28.09.–04.10.','05.10.–11.10.','12.10.–18.10.','19.10.–25.10.','26.10.–01.11.','02.11.–08.11.','09.11.–15.11.','16.11.–22.11.','23.11.–29.11.','30.11.–06.12.','07.12.–13.12.','14.12.–20.12.'];
+const finalWeek={...baseWeeks[11],week:13,title:'Christmas Mastery',focus:'Technisch saubere Bestleistungen. Full Skills sind Versuche, kein Muss.',days:[
+  {day:'Mo',name:'Pull + Lever Mastery',items:[['muscleup','6×saubere Singles/Versuche'],['chest-bar','4×3–5'],['full-front','6×technische Versuche'],['full-back','5×technische Versuche'],['leg-raise','3×12']]},
+  {day:'Di',name:'Push + Handstand Mastery',items:[['handstand','10×Bestversuch'],['dip','4×submax'],['full-planche','6×technische Versuche'],['elevated-pike','3×6–8'],['hollow','3×45 s']]},
+  {day:'Do',name:'Pistol + V-Sit Mastery',items:[['pistol','4×5/Seite'],['l-sit','5×Bestversuch'],['compression','5×10–15'],['v-sit','6×technische Versuche'],['nordic-neg','3×4–6']]},
+  {day:'Sa',name:'Graduation',items:[['muscleup','5×saubere Versuche'],['handstand','8×Bestversuch'],['straddle-front','5×Bestversuch'],['straddle-planche','5×Bestversuch'],['pistol','3×5/Seite']]}
+]};
+export const weeks=[...baseWeeks.map((w,i)=>({...w,date:starts[i],optional:{day:'Optional',name:'Skill Practice',items:optionalByWeek[i]}})),{...finalWeek,date:starts[12],optional:{day:'Optional',name:'Christmas Skill Practice',items:optionalByWeek[12]}}];
 
 export const warmup = ['2–3 min lockere Bewegung', 'Wrist Rocks × 30–45 s', 'Shoulder CARs × 5/Seite', 'Cat-Cow × 6', 'Air Squats × 10', 'Scapular Push-ups × 8'];
 export const rules = [

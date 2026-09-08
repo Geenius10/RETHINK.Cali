@@ -1,14 +1,16 @@
-# ReThink Calisthenics
+# ReThink Calisthenics · Christmas Plan
 
-Eine fokussierte PWA für genau einen Zweck: **12 Wochen Calisthenics, 4 Workouts pro Woche.**
+Eine fokussierte PWA für genau einen Zweck: **Calisthenics-Training bis Weihnachten 2026**.
+
+- Startblock: 16.–20. September, 3 Pflichttrainings
+- Danach: 13 volle Wochen, jeweils 4 Pflichttrainings + 1 optionale Skill-Einheit
+- 55 Pflichttrainings insgesamt
+- Adaptive Progression über „zu schwer / passt / zu leicht“
+- Ziele: Muscle-up, freier Handstand, Pistol Squat, L-/V-Sit sowie Progressionen bis Full Front Lever, Back Lever und Planche
+- Full Skills sind ambitionierte Endpunkte, keine künstlich garantierten Ergebnisse
+- Offline-PWA, Fortschritt lokal auf dem Gerät
 
 ## Start
-- Windows: `start.bat`
-- macOS/Linux: `start.command`
-- oder im Ordner: `python3 server.py`
-- anschließend `http://127.0.0.1:8765` öffnen
+`start.command` (macOS/Linux), `start.bat` (Windows) oder `python3 server.py`, danach `http://127.0.0.1:8765`.
 
-## Bedienung
-Die App hat nur zwei Bereiche: **Training** und **12 Wochen**. Auf Training steht immer automatisch die nächste noch offene Einheit. Im Workout können Sätze abgehakt, Pausen gestartet und Übungen mit `zu schwer / passt / zu leicht` bewertet werden. Wiederholtes Feedback passt spätere Übungen innerhalb derselben Progressionskette höchstens um eine Stufe an. Antippen des Übungsnamens öffnet Technik, Regression und Progression.
-
-Alle Fortschritte werden ausschließlich lokal im Browser gespeichert. Die PWA funktioniert nach dem ersten Laden offline.
+Die App hat nur **Training** und **Plan**. Das nächste Pflichttraining wird automatisch gewählt; optionale Einheiten blockieren den Plan nie.
